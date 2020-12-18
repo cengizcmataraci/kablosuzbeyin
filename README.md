@@ -1,5 +1,7 @@
 # kablosuzbeyin
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b94ba90a-c728-42ca-9e55-ed4ebbe61ed8/deploy-status)](https://app.netlify.com/sites/kablosuzbeyin/deploys)
+
 For the main page, please visit [Kablosuz Beyin Homepage](https://www.kablosuzbeyin.com)
 
 ## Project setup
