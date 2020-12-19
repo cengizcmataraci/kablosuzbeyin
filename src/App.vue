@@ -4,7 +4,8 @@
     <Welcome />
     <about-content />
     <Slider />
-    <br />
+    <Support />
+    <Contact />
     <Footer />
   </div>
 </template>
@@ -15,6 +16,9 @@ import Footer from "./components/Footer";
 import Slider from "./components/Slider";
 import aboutContent from "./components/aboutContent";
 import Welcome from "./components/Welcome";
+import Support from "./components/Support";
+import Contact from "./components/Contact";
+
 
 
 export default {
@@ -25,7 +29,8 @@ export default {
     Slider,
     aboutContent,
     Welcome,
-
+    Support,
+    Contact,
   },
 };
 </script>

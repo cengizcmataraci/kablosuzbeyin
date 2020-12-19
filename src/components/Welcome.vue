@@ -2,7 +2,7 @@
 <div class="p-5 arkaplan">
 <img src="https://www.goodencenter.org/wp-content/uploads/2019/02/bigstock-223855057.jpg" class="resim" />
 <div class="row p-5 m-5">
-  <div class="col-sm-6">
+  <div class="col-sm-6 col-md-6 col-lg-6">
     <div class="card">
       <div class="card-body text-center">
         <h5 class="card-title">Kablosuz Beyin'e Hoşgeldiniz!</h5>
