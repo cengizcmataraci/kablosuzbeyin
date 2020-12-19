@@ -1,11 +1,11 @@
 <template>
   <div
     class="p-5"
-    style="background-image: url('https://www.digitalsme.eu/digital/uploads/Untitled-design-4.png'); width: 100%;
+    style="background-image: url('https://blog.walls.io/wp-content/uploads/2017/02/ideas-for-making-event-more-social.jpg'); width: 100%;
     height: 660px;"
     id="etkinlikler"
   >
-  <!-- <img src="https://www.digitalsme.eu/digital/uploads/Untitled-design-4.png"/> -->
+  <!-- <img src="https://www.digitalsme.eu/digital/uploads/Untitled-design-4.png" class="resim"/> -->
     <div class="container" >
       <transition-group name="fade" tag="div">
         <div class="container" v-for="i in [currentIndex]" :key="i">
@@ -109,24 +109,18 @@ img {
 .next:hover {
   background-color: #bf1e2d;
 }
-/* .demo_wrap {
+.arkaplan {
     position: relative;
-    background: #5C97FF;
     overflow: hidden;
+    padding: 16px;
+    height: 660px;
 }
-.demo_wrap:before {
-    content: ' ';
-    display: block;
+.resim {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
-    z-index: 1;
+    height: auto;
     opacity: 0.6;
-    background-image: url('https://www.digitalsme.eu/digital/uploads/Untitled-design-4.png');
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    background-size: cover;
-} */
+}
 </style>
