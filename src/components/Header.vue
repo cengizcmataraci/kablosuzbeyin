@@ -1,11 +1,12 @@
 <template>
   <div>
     <nav
-      class="navbar navbar-expand-lg navbar-dark container-fluid"
+      class="navbar navbar-expand-lg navbar-dark container-fluid fixed-top"
       style="height: 2.2em; background-color: #bf1e2d;"
+      id="navbar"
     >
       <div class="container-fluid justify-content-start">
-        <img src="../assets/logo.png" alt="">
+        <a href="#"><img src="../assets/logo.png" alt="" /></a>
         <!-- <a class="navbar-brand" href="#">Kablosuz Beyin</a> -->
         <button
           class="navbar-toggler"
@@ -18,33 +19,41 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        </div>
+      </div>
 
-
-        <ul class="nav container-fluid justify-content-end" style="color: white;">
-          <li class="nav-item ">
-            <a class="nav-link active text-light" aria-current="page" href="#hakkimizda">Hakkımızda</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#etkinlikler">Etkinliklerimiz</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#anlasmalar">Anlaşmalarımız</a>
-          </li>
-            <li class="nav-item">
-            <a class="nav-link text-light" href="#iletisim">İletişim</a>
-          </li>
-        </ul>
-
+      <ul class="nav container-fluid justify-content-end" style="color: white;">
+        <li class="nav-item ">
+          <a
+            class="nav-link active text-light"
+            aria-current="page"
+            href="#hakkimizda"
+            >Hakkımızda</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#etkinlikler">Etkinliklerimiz</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#anlasmalar">Anlaşmalarımız</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#iletisim">İletişim</a>
+        </li>
+      </ul>
     </nav>
-          </div>
+  </div>
 </template>
 
 <script>
 export default {
   data() {
-    return {};
+    return {
+
+    };
   },
+  methods : {
+
+  }
 };
 </script>
 

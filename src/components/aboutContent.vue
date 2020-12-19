@@ -1,9 +1,9 @@
 <template>
   <div
-    class="p-5 mb-5"
-    style="background-color: #adce74; height: 300px;"
+    class="p-5 arkaplan"
     id="hakkimizda"
   >
+  <img src="https://league-mp7static.mlsdigital.net/styles/image_default/s3/images/CrewStadiumVisit.jpg?Zm4SfkcsHPbUjEWhc4.BdpLdJZ_.vJeY&itok=SJNZSlwP" />
     <!-- <div class="card text-center col col-md-3">
       <h5 class="card-header">Hakkımızda</h5>
       <div class="card-body">
@@ -14,7 +14,7 @@
         </p>
       </div>
     </div> -->
-    <div class="container">
+    <div class="container p-5 m-5">
       <div class="row">
         <div class="col-lg-6 mb-4">
           <div class="card">
@@ -55,4 +55,19 @@
 export default {};
 </script>
 
-<style scoped></style>
+<style scoped>
+.arkaplan {
+    position: relative;
+    overflow: hidden;
+    padding: 16px;
+    height: 660px;
+}
+.arkaplan img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+</style>

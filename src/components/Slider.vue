@@ -1,13 +1,15 @@
 <template>
   <div
-    class="p-5 mb-5"
-    style="background-color: #fff76a; height: 700px;"
+    class="p-5"
+    style="background-image: url('https://www.digitalsme.eu/digital/uploads/Untitled-design-4.png'); width: 100%;
+    height: 660px;"
     id="etkinlikler"
   >
+  <!-- <img src="https://www.digitalsme.eu/digital/uploads/Untitled-design-4.png"/> -->
     <div class="container" >
       <transition-group name="fade" tag="div">
         <div class="container" v-for="i in [currentIndex]" :key="i">
-          <img :src="currentImg" />
+          <img :src="currentImg" class="ab" />
         </div>
       </transition-group>
       <a class="prev" @click="prev">&#10094; Önceki</a>
@@ -83,7 +85,7 @@ img {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 160%;
+  top: 250%;
   width: auto;
   padding: 16px;
   color: white;
@@ -107,4 +109,24 @@ img {
 .next:hover {
   background-color: #bf1e2d;
 }
+/* .demo_wrap {
+    position: relative;
+    background: #5C97FF;
+    overflow: hidden;
+}
+.demo_wrap:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url('https://www.digitalsme.eu/digital/uploads/Untitled-design-4.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+} */
 </style>
